@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Responsive Portfolio Website</title>
+        <link rel ="stylesheet" type= "text/css" href="css/style.css">
+        <script src="js/custom.js"></script>  
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script> 
+        <script src="js/typed.min.js"></script>     
+    </head>
+
+<body>
+    <header>
+         <!-- <img src="url('../pics/bg4.png')" alt="pic"> -->
+        
+        
+        <nav>
+            <div class="logo">PORTF<span>OLIO</span></div>
+            <div class ="menu">
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#Skills">Skills</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+            
+        </nav>
+        
+        <div class="text">
+            <p>
+                Hello , I am
+            </p>
+            <h1> Anjali Kumari</h1>
+            <p> And I am <span id="ani" style ="color :rgb(4, 65, 65)"> </span></p>
+            <button class="c-btn">Hire me</button>
+        </div>
+
+    </header>  
+    <section id="about">
+        <div class="section-info">
+            <h1><span>A</span>bout</h1>
+            <p> who i am?
+            </p>
+        </div>
+
+        <div class="about-row">
+            <div class="about-left-col">
+                <img src="pics/passport.png" alt="my pic">
+            </div>
+
+            <div class="about-right-col">
+                <p id="p-title">
+                    hello i am Anjali and i am a <span id="ani2" style ="color :rgb(4, 65, 65)"> </span>
+                </p>
+                <p>
+                    i am a front end developer with multiple Skills.
+                    
+                </p>
+                <button class="c-btn">download cv  </button>
+            
+            </div>
+        </div>
+    </section>
+
+    <section id="Skills">
+        <div class="section-info">
+            <h1><span>Skill</span>'s</h1>
+            <p> I have</p>
+         
+        </div>
+        <div class ="Skills-row">
+            <div class="Skills-left-col">
+                <p> 
+                    A skilled, adaptable and deadline -driven mining engineering graduate who is eager to apply his 
+academic foundation and relevant experience in practical setting. Confident communicator who 
+effectively collaborates with colleagues, senior management and external partners to accomplish all 
+goals in accurate and timely manner .
+                </p>
+             <button class="c-btn">Read more</button>
+            </div>
+
+            <div class="Skills-right-col">
+                <div class="progress-div">
+                    <p>
+                    <span>HTML</span><br>
+                    <progress value="80" max="100"></progress>
+                    <span>80%</span>
+                    </p>
+                    <p>
+                    <span>CSS</span><br>
+                    <progress value="70" max="100"></progress>
+                     <span>70%</span>
+                    </p>
+                    <p>
+                        <span>javascrip</span><br>
+                        <progress value="75" max="100"></progress>
+                        <span>75%</span>
+                        </p>
+                    <p>
+                    <span>C</span><br>
+                    <progress value="80" max="100"></progress>
+                    <span>80%</span>
+                    </p>
+                    <p>
+                    <span>python</span><br>
+                    <progress value="65" max="100"></progress>
+                    <span>65%</span>
+                    </p>
+                          
+                    
+            
+                </div>
+            </div>
+        </div>   
+       
+    </section>   
+
+    <section id="services">
+        <div class="section-info">
+            <h1>SERVICE<span>S</span></h1>
+            <p> What we provide</p>
+        </div>
+    <div class="services-row">
+        <div class="services-box">
+            <img src="pics/girl.png">
+            <h2> Web Design</h2>
+            <p> ufguirfgfhrigfurfrrrrrrrrrrrrrr
+                rrrrrrrrrnbdjkabfbvkjf</p>
+        </div>
+        <div class="services-box">
+            <img src="pics/girl.png">
+            <h2> Web Development</h2>
+            <p> ufguirfgfhrigfurfrrrrrrrrrrrrrr
+                rrrrrrrrrnbdjkabfbvkjf</p>
+        </div>
+        <div class="services-box">
+            <img src="pics/girl.png">
+            <h2> Web Design</h2>
+            <p> ufguirfgfhrigfurfrrrrrrrrrrrrrr
+                rrrrrrrrrnbdjkabfbvkjf</p>
+        </div>
+    </div>
+
+    </section>
+
+    <section id="contact">
+        <div class="section-info">
+            <h1>Get in<span>Touch</span></h1>
+            <p style="color: aliceblue;">We are available</p>
+            
+        </div>
+        
+        
+        <div class="contact-row">
+            <div class="contact-left-col">
+                <img src="pics/info.png" >
+            </div>
+
+            <div class="contact-right-col">
+            <form>
+                <h2>Connect with us</h2>
+                <input type="text" name="" placeholder="Name"><br>
+                
+                <input type="email" name="" placeholder="e-mail">
+                <br>
+                <textarea cols="40" rows="10" placeholder="message"></textarea><br>
+                <button class="c-btn">Submit</button>
+            </form>
+        </div> 
+    </section>
+    <section id="footer">
+        <h2>Developed by Anjali Kumari</h2>
+        <img src="pics/log.png" width="100">
+
+    </section>
+
+<script src="js/jquery.ripples-min.js"></script>
+<script>
+    jQuery(document).ready(function(){
+        $("header").ripples({
+  dropRadius: 20,
+  perturbance: 0.03,
+  
+});
+    });
+
+    
+</script>
+<script>
+    let animate =new Typed('#ani',{
+        strings:[,"Web designer","Web developer"],
+        typespeed:100,
+        backspeed:100,
+        loop:true,
+       
+    })
+</script>
+<script>
+    let animat =new Typed('#ani2',{
+        strings:[,"Web designer","Web developer"],
+        typespeed:100,
+        backspeed:100,
+        loop:true,
+       
+    })
+</script>
+
+
+        
+</body>
+
+    
+</html>

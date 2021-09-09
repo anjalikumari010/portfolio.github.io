@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
         <title>Responsive Portfolio Website</title>
         <link rel ="stylesheet" type= "text/css" href="css/style.css">
         <script src="js/custom.js"></script>  
@@ -10,13 +11,13 @@
 
 <body>
     <header>
-         <!-- <img src="url('../pics/bg4.png')" alt="pic"> -->
+         
         
         
         <nav>
             <div class="logo">PORTF<span>OLIO</span></div>
             <div class ="menu">
-                <a href="#">Home</a>
+                <a href="#" ><i class="fas fa-home fa-2x"></i>Home</a>
                 <a href="#about">About</a>
                 <a href="#Skills">Skills</a>
                 <a href="#services">Services</a>
@@ -30,12 +31,15 @@
                 Hello , I am
             </p>
             <h1> Anjali Kumari</h1>
-            <p> And I am <span id="ani" style ="color :rgb(4, 65, 65)"> </span></p>
+            <p> And I am <span id="ani" style="color:  rgb(4, 65, 65);"></span> Developer</p>
             <button class="c-btn">Hire me</button>
         </div>
 
     </header>  
     <section id="about">
+        <img src="pics/bg5.png">
+         
+
         <div class="section-info">
             <h1><span>A</span>bout</h1>
             <p> who i am?
@@ -44,12 +48,12 @@
 
         <div class="about-row">
             <div class="about-left-col">
-                <img src="pics/passport.png" alt="my pic">
+                <img src="pics/passport.png" >
             </div>
 
             <div class="about-right-col">
                 <p id="p-title">
-                    hello i am Anjali and i am a <span id="ani2" style ="color :rgb(4, 65, 65)"> </span>
+                    hello i am Anjali and i am a font end developer.
                 </p>
                 <p>
                     i am a front end developer with multiple Skills.
@@ -123,12 +127,11 @@ goals in accurate and timely manner .
         <div class="services-box">
             <img src="pics/girl.png">
             <h2> Web Design</h2>
-            <p> ufguirfgfhrigfurfrrrrrrrrrrrrrr
-                rrrrrrrrrnbdjkabfbvkjf</p>
+            <p> </p>
         </div>
         <div class="services-box">
             <img src="pics/girl.png">
-            <h2> Web Development</h2>
+            <h2> Web Design</h2>
             <p> ufguirfgfhrigfurfrrrrrrrrrrrrrr
                 rrrrrrrrrnbdjkabfbvkjf</p>
         </div>
@@ -156,14 +159,16 @@ goals in accurate and timely manner .
             </div>
 
             <div class="contact-right-col">
-            <form>
+                <form action="https://formcarry.com/s/XxvNX5y9OCz" method="POST"
+                accept-charset="UTF-8">
+                <!-- https://formcarry.com/s/XxvNX5y9OCz -->
                 <h2>Connect with us</h2>
-                <input type="text" name="" placeholder="Name"><br>
+                <input type="text" name="name" placeholder="Name"><br>
                 
-                <input type="email" name="" placeholder="e-mail">
+                <input type="email" name="mail" placeholder="e-mail">
                 <br>
-                <textarea cols="40" rows="10" placeholder="message"></textarea><br>
-                <button class="c-btn">Submit</button>
+                <textarea cols="40" rows="10" placeholder="message" name ="sender's message"></textarea><br>
+                <button class="c-btn" type="submit">Submit</button>
             </form>
         </div> 
     </section>
@@ -185,25 +190,6 @@ goals in accurate and timely manner .
 
     
 </script>
-<script>
-    let animate =new Typed('#ani',{
-        strings:[,"Web designer","Web developer"],
-        typespeed:100,
-        backspeed:100,
-        loop:true,
-       
-    })
-</script>
-<script>
-    let animat =new Typed('#ani2',{
-        strings:[,"Web designer","Web developer"],
-        typespeed:100,
-        backspeed:100,
-        loop:true,
-       
-    })
-</script>
-
 
         
 </body>

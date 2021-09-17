@@ -80,6 +80,7 @@ nav{
     margin-left: 80px;
     margin-top: 15px;
     font-family:Georgia, 'Times New Roman', Times, seri ;
+    cursor: pointer;
 }
 #about{
     padding: 100px 50px;
